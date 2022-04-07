@@ -1,7 +1,12 @@
-import React from 'react';
-import './Hero.css';
+import React from 'react'
+import {
+    CloudUploadIcon,
+    DatabaseIcon,
+    PaperAirplaneIcon,
+    ServerIcon
+} from '@heroicons/react/solid'
+
 import heroImg from '../../Assets/image/cyber-bg.png';
-import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from '@heroicons/react/solid';
 
 const Hero = () => {
     return (
@@ -29,7 +34,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default Hero;
